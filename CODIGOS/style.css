@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+p,h1,h2,h3,h4,h5{
+  color: white;
+
+}
+.limitar {
+  max-width: 800px;
+  margin: 0 auto;
+  width: 100%;
+  
+}
+
+header {
+    background: rgb(4,4,4);
+    background: -moz-linear-gradient(297deg, rgba(4,4,4,1) 66%, rgba(0,0,0,0.908000700280112) 100%);
+    background: -webkit-linear-gradient(297deg, rgba(4,4,4,1) 66%, rgba(0,0,0,0.908000700280112) 100%);
+    background: linear-gradient(297deg, rgba(4,4,4,1) 66%, rgba(0,0,0,0.908000700280112) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#040404",endColorstr="#000000",GradientType=1);
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+   
+   
+    
+}
+.imagem-fundo{
+    background-image: url(../imagem/lau07-capa.jpg);
+    background-size: cover;
+    background-position: left;
+    height: 500px;
+    width: 100%;
+
+}
+.texto-imagem-fundo{
+    text-align: end;
+    background-color: rgba(0, 0, 0, 0.651);
+    color: white;
+    padding: 20px 30px;
+    font-size: 20px;
+    
+}
+figure{
+  display: flex;
+  gap:20px;
+  justify-content: space-around;
+  
+
+
+}
+figure img{
+  /* width: 100vw; */
+}
+.container{
+  margin: 40px 10px;
+}
+.texto{
+ /* line-height: 10px; */
+ margin: 20px 0; 
+}
+.cor-fundo{
+  background: rgb(4,4,4);
+    background: -moz-linear-gradient(297deg, rgba(4,4,4,1) 66%, rgba(0,0,0,0.908000700280112) 100%);
+    background: -webkit-linear-gradient(297deg, rgba(4,4,4,1) 66%, rgba(0,0,0,0.908000700280112) 100%);
+    background: linear-gradient(297deg, rgba(4,4,4,1) 66%, rgba(0,0,0,0.908000700280112) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#040404",endColorstr="#000000",GradientType=1);
+  padding: 40px;
+}
+.contato{
+  background-color: red;
+  text-align: center;
+  padding: 40px 0;
+}
+.contato h4{
+  background-color: rgba(3, 1, 1, 0.589);
+  padding: 20px;
+  
+}
+fieldset{
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+label{
+  margin: 10px 0;
+}
+button{
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+}
+button{
+  color: red;
+  background-color: rgb(75, 16, 16);
+
+}
+footer{
+  text-align: center;
+  background-color: rgb(3, 1, 1);
+
+
+}
+@media screen and (max-width:450px){
+  figure{
+    flex-direction: column;
+  }
+  p{
+    font-size: 20px;
+  }
+}
+@media screen and (max-width:1074px){
+  figure{
+    flex-wrap: wrap;
+  }
+}
+  
